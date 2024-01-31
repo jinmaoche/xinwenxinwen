@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>首页</title>
+		<link rel="stylesheet" href="css/lib.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/libs.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/lib.js"></script>
+	</head>
+	<body>
+		<div class="sj">
+			<div class="d_top"></div>
+			<div class="top">
+				<a href="" class="bak"><img src="img/go-back.png" alt="" /></a>
+				<div class="top_left">
+					<a href="" class="kef"><img src="img/serv.png" alt="" /></a>
+					<a href="" class="geng"><img src="img/more.png" alt="" /></a>
+				</div>
+			</div>
+			<div class="title">
+				“以爱为墨,以鼓励为药”,护士用 鼓励贴传递希望
+			</div>
+			<div class="text_01">
+				<div class="Client">人民日报健康客户端</div>
+				<div class="reporter">记者</div>
+				<div class="n-name">杨林宋</div>
+				<div class="t-time">2024-01-30 13:10</div>
+			</div>
+			<div class="text">
+				浙江大学医学院（Zhejiang University School of Medicine）位于浙江省杭州市，
+				是浙江大学下设二级学院，是国家首批“卓越医生教育培养计划”项目试点高校，高水平公共卫生学院建设高校 ，
+				首批教育部、卫生部共建高校医学院的十所部属综合性大学医学院
+				自2023年12月起,浙江大学医学院附属邵逸夫医院的护士长们纷纷拿起纸和笔,在
+				一张张纸条上写下对患者的鼓励,这种"鼓励贴"开始在医院多个科室中流行起来,护士长
+				们将平日里难以言表的关心和鼓励,以文字形式写下来赠予患者,让患者相信"相信"的力量,也是一种希望!
+
+			</div>
+			
+			<div class="pic"><img src="img/pic01.png" alt="" /></div>
+			<div class="end_of">2024年1月28日,摆在医院护士工作台的鼓励贴。 受访者供图</div>
+			<div class="d_foot"></div>
+			<div class="foot">
+				<input type="text" placeholder="说两句..." />
+				<a href="javascript:;" class="pinglun"><img src="img/pinglun.png" alt="" /></a>
+				<div class="dianzan">
+					<img src="img/dianzan.png" alt="" />
+				</div>
+				<div class="soucang">
+					<img src="img/shoucang.png" alt="" />
+				</div>
+				<a href="javascript:;" class="zhuanfa"><img src="img/zhuanfa.png" alt="" /></a>
+			</div>
+		</div>
+		<script>
+			const dianzan = document.querySelector(`.dianzan`)
+			const soucang = document.querySelector(`.soucang`)
+			const img_s = document.querySelector(`.soucang img`)
+			const img = document.querySelector(`.dianzan img`)
+			let i = 1;
+			let j = 1;
+			dianzan.addEventListener(`click`, function() {
+				if (i % 2 == 0) {
+					img.src = './img/dianzan.png'
+				} else {
+					img.src = './img/dianzan_h.png'
+				}
+				i++;
+			})
+			soucang.addEventListener(`click`, function() {
+				if (j % 2 == 0) {
+					img_s.src = './img/shoucang.png'
+				} else {
+					img_s.src = './img/shoucang_h.png'
+				}
+				j++;
+			})
+		</script>
+	</body>
+</html>

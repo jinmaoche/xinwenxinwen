@@ -1,0 +1,256 @@
+body{
+  background-color: #fff;
+  
+}
+.main{
+  padding-bottom: -webkit-calc(0.2rem + constant(safe-area-inset-bottom));
+  padding-bottom: -moz-calc(0.2rem + constant(safe-area-inset-bottom));
+  padding-bottom: calc(0.2rem + constant(safe-area-inset-bottom));
+  padding-bottom: -webkit-calc(0.2rem + env(safe-area-inset-bottom));
+  padding-bottom: -moz-calc(0.2rem + env(safe-area-inset-bottom));
+  padding-bottom: calc(0.2rem + env(safe-area-inset-bottom));
+}
+@media screen and (max-width: 650px) {
+.KJ-TabBox ul,.KJ-TabBox li { font-size: 14px;}
+.m-rafflel .Lottery{font-size: 12px;}
+}
+.d_top{
+	width: 92%;
+	height: .5rem;
+}
+.d_foot{
+	width: 100%;
+	height: 1.56rem;
+}
+.top {
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	height: .5rem;
+	background-color: #fff;
+	padding: .3rem .3rem .4rem .3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bak{
+	
+	width: .15rem;
+	display: block;
+}
+	
+.bak img{
+	width: 100%;
+	display: block;
+}
+.top_left{
+	width: .92rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.kef{
+	width: .32rem;
+	display: block;
+}
+.kef img{
+	width: 100%;
+	display: block;
+}
+.geng{
+	width: .3rem;
+	display: block;
+}
+.geng img{
+	width: 100%;
+	display: block;
+}
+.title{
+	width: 92%;
+	height: 1.26rem;
+	font-size: .44rem;
+	font-family: Source Han Serif CN, Source Han Serif CN;
+	font-weight: 900;
+	color: #3D3D3D;
+	line-height: .63rem;
+	margin: 0 auto;
+	margin-bottom: .28rem;
+	margin-top: .2rem;
+	text-align: center;
+	
+}
+.text_01{
+	width:92%;
+	margin: 0 auto;
+	margin-bottom:.5rem;
+	display: flex;
+	justify-content: center;
+	margin-left: .3rem;
+	font-size: .22rem;
+	font-family: Source Han Serif CN, Source Han Serif CN;
+	font-weight: 500;
+	color: #8D8D8D;
+	line-height: .32rem;
+	
+	
+	
+}
+
+
+.text_01 .Client{
+	margin-right: .4rem;
+}
+.text_01 .reporter{
+	margin-right: .11rem;
+}
+
+.text_01 .n-name{
+	margin-right: .36rem;
+}
+.text_01 .t-time{
+	
+}
+.text{
+	width: 92%;
+	font-size: .32rem;
+	font-family: Source Han Serif CN, Source Han Serif CN;
+	font-weight: 500;
+	color: #3D3D3D;
+	line-height: .52rem;
+	margin: 0 auto;
+	margin-bottom: .43rem;	
+}
+.pic{
+	max-width: 6.9rem;
+	margin: 0 auto;
+	margin-bottom: .21rem;
+}
+.pic img{
+	width: 100%;
+	display: block;
+}
+.end_of{
+	width: 92%;	
+	font-size: .32rem;
+	font-family: Source Han Serif CN, Source Han Serif CN;
+	font-weight: 500;
+	color: #8D8D8D;
+	line-height: .42rem;	
+	margin: 0 auto;
+	margin-bottom: .37rem;
+}
+.foot{
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+	height: 1.36rem;
+	background: #FFFFFF;
+	box-shadow: 0px .04rem .2rem 0px #DBD6D6;	
+	opacity: 1;
+	padding-left: .3rem;
+	padding-top: .03rem;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;	
+}
+.foot input{
+	width: 64%;
+	height: .72rem;
+	background: #F8F8F8;
+	border-radius: 1.88rem;
+	opacity: 1;
+	padding-left: .34rem;
+	margin-right: 20%;
+}
+.pinglun{
+	width: .34rem;
+	margin-right:.42rem;
+	display: block;
+}
+.pinglun img{
+	width: 100%;
+	display: block;
+}
+.dianzan{
+	width: .34rem;
+	margin-right: .39rem;
+}
+.dianzan img{
+	width: 100%;
+	display: block;
+}
+.soucang{
+	width: .44rem;
+	margin-right: .38rem;
+}
+.soucang img{
+	width: 100%;
+	display: block;
+}
+.zhuanfa{
+	width: .34rem;
+	display: block;
+}
+.zhuanfa img{
+	width: 100%;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 650px) {
+.title{
+	width: 92%;
+	height: 1.26rem;
+	font-size: .44rem;
+	font-family: Source Han Serif CN, Source Han Serif CN;
+	font-weight: 900;
+	color: #3D3D3D;
+	line-height: .63rem;
+	margin: 0 auto;
+	margin-bottom: .28rem;
+	margin-top: .2rem;
+	text-align: left;
+	
+ }
+.text_01{
+	width:92%;
+	margin: 0 auto;
+	margin-bottom:.5rem;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: .3rem;
+	font-size: .22rem;
+	font-family: Source Han Serif CN, Source Han Serif CN;
+	font-weight: 500;
+	color: #8D8D8D;
+	line-height: .32rem;
+	
+	
+	
+}
+	 .foot input{
+	 	width: 4.08rem;
+	 	height: .72rem;
+	 	background: #F8F8F8;
+	 	border-radius: 1.88rem;
+	 	opacity: 1;
+	 	padding-left: .34rem;
+	 	margin-right: .2rem;
+	 }
+}
+
+
+
+
+
+
+
+
